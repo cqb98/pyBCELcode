@@ -18,7 +18,7 @@ decode(s:str  ,decompress=False):
 ```
 import pyBCELcode
 pyBCELcode.encode(b"123",True)
-pyBCELcode.encode("$$BCEL$$....",True)
+pyBCELcode.decode("$$BCEL$$....",True)
 
 ```
 
